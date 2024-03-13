@@ -11,35 +11,36 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 
-<div align="center">
 
-# Radom Colored Container
+
+
+ # Radom Colored Container
+ This package gives random colors to containers.
 
 
 ## Features
+Automaticaly gives radom colors.
 
+## Installation
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Add `colored_containers: ^0.0.1` to your `pubspec.yaml` dependencies. And import it:
 
-## Getting started
+```dart
+import 'package:colored_containers/colored_containers.dart';
+```
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
+## Useage
 
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-const like = 'sample';
+ RandomColoredContainer(
+              height: 100,
+              width: 100,
+              child: Text('Random Colored Container'),
+            ),
+       
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
